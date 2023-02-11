@@ -33,7 +33,7 @@ Look no further than iBlog! With a Home page, About page, Contact page, and Sear
 
 ## Contributing to iBlog
 
-The iBlog project welcomes contributions from all. Before getting involved, please review our Code of Conduct outlined in ```code_of_conduct.md```. Then, see ```contributing.md``` for ways to get started.
+The iBlog project welcomes contributions from all. Before getting involved, please review our Code of Conduct outlined in [code_of_conduct.md](https://github.com/mrbhatt2348/iBlog/blob/main/CODE_OF_CONDUCT.md). Then, see [contributing.md](https://github.com/mrbhatt2348/iBlog/blob/main/contributing.md) for ways to get started.
 
 Get ready to take your blogging experience to new heights with iBlog!
 
