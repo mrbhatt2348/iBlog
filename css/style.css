@@ -5,7 +5,7 @@
 
 .navigation {
   margin-top: 25px;
-  font-family: var(--font1);
+  font-family: monospace;
   /* height: 74px;  */
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@
 .nav-left ul li {
   list-style: none;
   margin: 0 14px;
-  font-family: var(--font2);
+  font-family: monospace;
   transition: all 0.3s ease-in-out;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .nav-left ul li a:hover {
-  color: var(--main-bg-color);
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   font-weight: bolder;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .content-left {
-  font-family: var(--font1);
+  font-family:monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@
 
 .content-right img {
   height: 355px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 200px;
 }
 
@@ -126,7 +126,7 @@
 /* .home-articles{} */
 .footer {
   height: 50px;
-  background-color: var(--main-bg-color);
+  background-color: monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,5 +135,5 @@
 }
 
 .footer a {
-  color: white;
+  color: grey;
 }
