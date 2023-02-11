@@ -28,7 +28,6 @@
   font-size: 22px;
   padding-bottom: 23px;
 }
-
 .nav-left ul li {
   list-style: none;
   margin: 0 14px;
@@ -44,6 +43,8 @@
 .nav-left ul li a:hover {
   color: var(--main-bg-color);
   font-weight: bolder;
+  text-decoration-line: underline;
+
 }
 
 .content {
