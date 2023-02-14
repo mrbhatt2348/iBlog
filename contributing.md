@@ -67,3 +67,5 @@ If you are facing any issue, feel free to contact me on [LinkedIn](https://www.l
 
 <br>
 <h2 align="center">Thank you for your contributions!</h2>
+
+## And don't forget to follow me on [GitHub](https://github.com/mrbhatt2348)
