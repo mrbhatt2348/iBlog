@@ -137,3 +137,28 @@
 .footer a {
   color: white;
 }
+
+
+
+/* Light mode styles */
+body:not(.dark) {
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark {
+  color: white;
+}
+
+/* Light mode styles */
+body:not(.dark) nav.navigation ul li a {
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark nav.navigation ul li a {
+  color: white;
+}
+
+
+
