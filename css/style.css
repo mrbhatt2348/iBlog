@@ -38,7 +38,7 @@
 
 .nav-left ul li a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
 .nav-left ul li a:hover {
@@ -136,4 +136,19 @@
 
 .footer a {
   color: white;
+}
+
+
+.button{
+  margin: 2%;
+}
+.dark{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+.white-links{
+  color: white;
+}
+.black-links{
+  color: black;
 }
