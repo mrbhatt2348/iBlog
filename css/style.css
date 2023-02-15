@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgb(157 157 157 / 20%) 0px 4px 10px;
 }
 
 .nav-left {
