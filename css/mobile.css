@@ -8,6 +8,11 @@
     flex-direction: column;
     text-align: center;
   }
+  
+  .nav-right{
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
 
   .m-auto content max-width-1 my-2{
      display:flexbox;
