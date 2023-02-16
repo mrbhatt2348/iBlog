@@ -46,6 +46,23 @@
   font-weight: bolder;
 }
 
+.signin {
+  border-radius: 12px;
+  background-color: rgb(249, 219, 163);
+  color: #333;
+  font-weight: bolder;
+  padding: 10px 30px;
+}
+
+.signin-button {
+  text-decoration: none;
+  color: #333;
+}
+
+.signin:hover {
+  background-color: orange;
+}
+
 .content {
   height: 100%;
   display: flex;
