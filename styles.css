@@ -196,11 +196,11 @@ input[type=password]:valid{
     }
 }
 /* display flex for the icons  */
-.main .col-socials{
+ .col-socials{
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: auto;
+   margin: 10px auto;
    margin-right: 30px;
 }
 /* style header */
