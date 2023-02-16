@@ -1,8 +1,9 @@
 function dark(){
+    console.log(document.body);
     document.body.classList.toggle("dark");
 
     let modeBtn=document.querySelector(".button");
-    console.log(modeBtn.innerHTML);
+
     if(modeBtn.innerHTML=="Dark Mode")
     modeBtn.innerHTML="Light Mode";
     else modeBtn.innerHTML="Dark Mode";
