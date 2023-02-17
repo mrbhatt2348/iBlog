@@ -1,4 +1,11 @@
-# Issues
+# Contribution Guideline
+---
+
+First of all thanks for your time to contribute :smiley: :partying_face:
+
+This documentation contains a set of guidelines to help you during the contribution process.
+
+# ⭕ Issues
 
 Before submitting a bug report or feature request, please check to see if an issue for that has already been filed. If there is, please add any additional information you have to the existing issue.
 
@@ -10,7 +17,7 @@ If there isn't an issue for what you want to report, please open a new issue wit
 - The expected behavior
 - Screenshots or other relevant information
 
-## Raise an issue and build a component you want to build.
+## 🚩 Raise an issue and build a component you want to build.
 
 - Navigate to the iBlog repository on GitHub.
 - Click on the "Issues" tab.
@@ -27,7 +34,7 @@ git clone https://github.com/mrbhatt2348/iBlog
 
 ## Change the directory
 ```bash
-cd web-ui-kit
+cd iBlog
 
 ```
 
@@ -66,6 +73,16 @@ We love pull requests! If you're submitting a pull request, please keep the foll
 If you are facing any issue, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/raj2348).
 
 <br>
+
+## Are you a beginner in using Github?
+
+You can refer to the following articles on the basics of Git and Github and also contact me, in case you are stuck:
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
+
 <h2 align="center">Thank you for your contributions!</h2>
 
 ## And don't forget to follow me on [GitHub](https://github.com/mrbhatt2348)
