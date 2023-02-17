@@ -38,12 +38,18 @@
 
 .nav-left ul li a {
   text-decoration: none;
-  /* color: black; */
+  color: black;
+  font-family: sans-serif;
 }
 
 .nav-left ul li a:hover {
   color: var(--main-bg-color);
-  font-weight: bolder;
+  transform: scale(1.009);
+  transition: 1ms linear;
+  /* z-index: 2; */
+  /* box-shadow: 1px 1px 2px .5px var(--main-bg-color); */
+  border-bottom: 2px solid var(--main-bg-color);
+  padding: 4px;
 }
 
 .signin {
@@ -223,4 +229,19 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: orange;
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: white;
 }
