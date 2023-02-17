@@ -26,7 +26,19 @@ If there isn't an issue for what you want to report, please open a new issue wit
 - Provide a descriptive title for the issue.
 
 
-# Project setup in local
+## Project setup in local
+
+## steps
+
+#### Fork from the Origin repository
+#### Clone it to your system
+#### cd iBlog
+#### make the changes
+#### git add the neccessary files
+#### commit this using appropraite message
+
+## Commands
+
 ## Fork and clone the repository
 ```bash
 git clone https://github.com/mrbhatt2348/iBlog
@@ -51,6 +63,7 @@ git add .
 ## Commit your change with a proper messagge
 ```
 git commit -m "Enter your message here"
+
 ```
 
 ## Make the Pull Request
@@ -59,6 +72,10 @@ git push origin <branch_name>
 ```
 ## Pull Requests
 
+## Note:
+```
+always make sure, you rise pull request from a Branch other than main.
+```
 We love pull requests! If you're submitting a pull request, please keep the following in mind:
 
 - Make sure your code adheres to our Code of Conduct and coding standards
@@ -85,4 +102,13 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <h2 align="center">Thank you for your contributions!</h2>
 
-## And don't forget to follow me on [GitHub](https://github.com/mrbhatt2348)
+## Contributors
+
+### ManasaKaza -[Github](https://github.com/ManasaKaza)
+### Sowham Bhuin-[Github](https://github.com/Sowham-3098)
+### Swadesh Pal-[Github](https://github.com/Swadeshit27)
+### Neha Panda - [Github](https://github.com/Neha00011)
+### Asad Shoyeb Khan- [Github](https://github.com/asadshoyebkhan)
+
+
+### And don't forget to follow me on [GitHub](https://github.com/mrbhatt2348)
