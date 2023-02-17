@@ -17,10 +17,13 @@
                 <span><img src="img/logo.png" width="94px" alt=""></span>
             </a>
             <ul>
+
+
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="contact.html">Contact</a></li>
+
             </ul>
         </div>
         <div class="nav-right">
@@ -29,11 +32,10 @@
                 <button class="btn">Search</button>
             </form>
         </div>
-        <div>
-            <button class="signin"><a href="login.html" class="signin-button">Login</a></button>
-            <button class="signin"><a href="signup.html" class="signin-button">Signup</a></button>
-        </div>
-
+        <label class="switch">
+            <input type="checkbox" onclick="dark()" class="button">
+            <span class="slider"></span>
+        </label>
     </nav>
     <div class="max-width-1 m-auto">
         <hr>
@@ -43,10 +45,10 @@
             <h1>The heaven for bloggers</h1>
             <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
                 can get a good amount of reach from here!</p>
-            <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the
+            <p>My Halloween decorations are staying in the box this year. To be honest, they didn't make it out of the
                 box last year either. My Halloween spirit has officially been bludgeoned to death by teenagers who no
                 longer care and a persistent October fear of the Northern California wildfires. And speaking of fear,
-                isn’t there more than enough of that going around? Maybe all of us can pretend that Halloween isn’t even
+                isn't there more than enough of that going around? Maybe all of us can pretend that Halloween isn't even
                 happening this year?</p>
         </div>
         <div class="content-right">
@@ -180,6 +182,7 @@
     <div class="footer">
         <p>Copyright &copy; Raj Bhatt </p>
     </div>
+    <script src="./dark-light-mode.js"></script>
 </body>
 
 </html>
