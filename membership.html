@@ -7,9 +7,11 @@
     <title>iBlog - Heaven for bloggers</title>
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/blogpost.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/membership.css">
+    <link rel="stylesheet" href="css/testimonials.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 </head>
@@ -21,8 +23,9 @@
             </a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="membership.html">Membership</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -32,6 +35,10 @@
                 <button class="btn">Search</button>
             </form>
         </div>
+        <label class="switch">
+          <input type="checkbox" onclick="dark()" class="button">
+          <span class="slider"></span>
+      </label>
     </nav>
     <div class="max-width-1 m-auto">
         <hr>
@@ -39,6 +46,7 @@
 
 
     <!-- --------------------Susbscriptions-------------------------- -->
+    <section class="content">
     <div class="elementor-widget-container1">
       <h3 class="elementor-heading-title elementor-size-default">The Most Powerful Platform for reach… 
         <u>Without High Cost</u> 
@@ -87,74 +95,11 @@
         <li class="grey"><a href="#" class="button">Sign Up</a></li>
       </ul>
     </div>   
-
-
-    <br>
-
-    <!-- --------------------Testimonials-------------------------- -->
-    <h2>Testimonials</h2>
-    <section class="container">
-        <div class="testimonial mySwiper">
-          <div class="testi-content swiper-wrapper">
-            <div class="slide swiper-slide">
-              <img src="img/testimonial1.png" alt="" class="image" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-                saepe provident dolorem a quaerat quo error facere nihil deleniti
-                eligendi ipsum adipisci, fugit, architecto amet asperiores
-                doloremque deserunt eum nemo.
-              </p>
-  
-              <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
-              <div class="details">
-                <span class="name">Marnie Lotter</span>
-                <span class="job">Web Developer</span>
-              </div>
-            </div>
-            <div class="slide swiper-slide">
-              <img src="img/testimonial2.png" alt="" class="image" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-                saepe provident dolorem a quaerat quo error facere nihil deleniti
-                eligendi ipsum adipisci, fugit, architecto amet asperiores
-                doloremque deserunt eum nemo.
-              </p>
-  
-              <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
-              <div class="details">
-                <span class="name">Marnie Lotter</span>
-                <span class="job">Web Developer</span>
-              </div>
-            </div>
-            <div class="slide swiper-slide">
-              <img src="img/testimonial3.png" alt="" class="image" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-                saepe provident dolorem a quaerat quo error facere nihil deleniti
-                eligendi ipsum adipisci, fugit, architecto amet asperiores
-                doloremque deserunt eum nemo.
-              </p>
-  
-              <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
-              <div class="details">
-                <span class="name">Marnie Lotter</span>
-                <span class="job">Web Developer</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next nav-btn"></div>
-          <div class="swiper-button-prev nav-btn"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
-
+  </section>
+  </main>
+  <div class="footer">
+    <p>Copyright &copy; Raj Bhatt </p>
+  </div>
+    <script src="./dark-light-mode.js"></script>
 </body>
 </html>

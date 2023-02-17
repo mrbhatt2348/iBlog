@@ -6,9 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: aqua;
-  /* justify-content: center; */
-  /* justify-items: center; */
 }
 
 h2{
@@ -23,28 +20,7 @@ h2{
   justify-content: center;
   /* background-color: #e3f2fd; */
 }
-.testimonial {
-  position: relative;
-  max-width: 900px;
-  width: 100%;
-  padding: 50px 0;
-  overflow: hidden;
-}
-.testimonial .image {
-  height: 170px;
-  width: 170px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.testimonial .slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  row-gap: 30px;
-  height: 100%;
-  width: 100%;
-}
+
 .slide p {
   text-align: center;
   padding: 0 160px;
