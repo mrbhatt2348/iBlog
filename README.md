@@ -4,7 +4,6 @@
 iBlog - A dynamic blogging platform for valuable information, easy navigation and modern design. Home, About, Contact, and Search bar included.
 
 
-
 ## 📌 Key Features
 
 - Responsive design: The website should be optimized for viewing on various devices, including desktop computers, laptops, tablets, and smartphones.
