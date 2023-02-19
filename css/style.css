@@ -3,6 +3,9 @@
   padding: 0; 
 }
 
+body{
+  background-color: #232323;
+}
 .navigation {
   margin-top: 25px;
   font-family: var(--font1);
@@ -40,6 +43,10 @@
   text-decoration: none;
   color: black;
   font-family: sans-serif;
+}
+
+.dark ul li a{
+  color: #fff;
 }
 
 .nav-left ul li a:hover {
@@ -155,6 +162,7 @@
   justify-content: center;
   color: white;
   flex-direction: column;
+  margin-top: 35px;
 }
 
 .footer a {
