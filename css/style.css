@@ -176,6 +176,10 @@
   color: black;
 }
 
+.dark a{
+  color: white !important;
+}
+
 
 
 /*slider*/
