@@ -50,6 +50,16 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 <br>
 
 
+##  <h1 align=center>CONTRIBUTION 👏</h1>
+
+## 🧑‍💻 About the Admin
+
+
+| Admin  | 
+| :----------: | 
+|<a href="https://github.com/mrbhatt2348"><img src="https://avatars.githubusercontent.com/mrbhatt2348" width=150px height=150px /></a><br>Rajkumar Bhatt<br>|
+<br>
+
 
 
 ## 👩🏽‍💻 Contributing
@@ -64,7 +74,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 <br>
 <div>
 <h1 align="center">
- <b>Thanks to these amazing people
+ <b>Thanks to these amazing people</b>
 <h1>
 <a href="https://github.com/mrbhatt2348/iBlog/contributors">
   <img src="https://contrib.rocks/image?repo=mrbhatt2348/iBlog&&max=817" />
