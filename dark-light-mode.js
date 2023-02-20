@@ -1,5 +1,4 @@
 function dark(){
-    console.log(document.body);
     document.body.classList.toggle("dark");
 
     let modeBtn=document.querySelector(".button");
@@ -18,5 +17,20 @@ function dark(){
         e[i].classList.remove("white-links");
         e[i].classList.add("black-links");
     }
+    }   
+
+    let theme;
+    if(document.body.classList.contains("dark")){
+        theme="DARK";
+    }
+    else{
+        theme="LIGHT";
+    }
+    localStorage.setItem("PageTheme",JSON.stringify(theme));
 }
+
+let GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
+
+if(GetTheme === "DARK"){
+    document.body.classList="dark";
 }
