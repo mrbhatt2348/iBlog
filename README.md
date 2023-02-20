@@ -31,6 +31,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 
 
+
 ## Repo Status
 
 <div align="center">
@@ -51,7 +52,10 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 
 
+## 👩🏽‍💻 Contributing
 
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are greatly appreciated.
 
 
 
