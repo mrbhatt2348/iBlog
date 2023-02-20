@@ -29,9 +29,6 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 - Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading horizons.
 
-
-
-
 ## Repo Status
 
 <div align="center">
@@ -69,7 +66,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 
 
-## Contributors
+## Thanks to our Contributors
 
 <br>
 <div>
