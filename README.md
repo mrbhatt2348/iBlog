@@ -90,7 +90,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 </p>
   
-  <br>
+<br>
 
   
   
