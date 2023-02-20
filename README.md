@@ -4,6 +4,11 @@
 iBlog - A dynamic blogging platform for valuable information, easy navigation and modern design. Home, About, Contact, and Search bar included.
 
 
+## <h1 align=center>Screenshot 📸</h1>
+
+![image](https://user-images.githubusercontent.com/85965606/220142925-dcc30f99-a4fa-40dd-b998-37be47add99a.png)
+
+
 ## 📌 Key Features
 
 - Responsive design: The website should be optimized for viewing on various devices, including desktop computers, laptops, tablets, and smartphones.
@@ -24,6 +29,8 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 - Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading horizons.
 
+
+
 ## Repo Status
 
 <div align="center">
@@ -40,6 +47,13 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 - Before Contribute Please read [CONTRIBUTING.md](https://github.com/mrbhatt2348/iBlog/blob/main/contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/mrbhatt2348/iBlog/blob/main/CODE_OF_CONDUCT.md)
 
 <br>
+
+
+
+
+
+
+
 
 ## Contributors
 
