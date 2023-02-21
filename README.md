@@ -4,6 +4,11 @@
 iBlog - A dynamic blogging platform for valuable information, easy navigation and modern design. Home, About, Contact, and Search bar included.
 
 
+## <h1 align=center>Screenshot 📸</h1>
+
+![image](https://user-images.githubusercontent.com/85965606/220142925-dcc30f99-a4fa-40dd-b998-37be47add99a.png)
+
+
 ## 📌 Key Features
 
 - Responsive design: The website should be optimized for viewing on various devices, including desktop computers, laptops, tablets, and smartphones.
@@ -41,12 +46,32 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 <br>
 
-## Contributors
+
+##  <h1 align=center>CONTRIBUTION 👏</h1>
+
+## 🧑‍💻 About the Admin
+
+
+| Admin  | 
+| :----------: | 
+|<a href="https://github.com/mrbhatt2348"><img src="https://avatars.githubusercontent.com/mrbhatt2348" width=150px height=150px /></a><br>Rajkumar Bhatt<br>|
+<br>
+
+
+
+## 👩🏽‍💻 Contributing
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are greatly appreciated.
+
+
+
+## Thanks to our Contributors
 
 <br>
 <div>
 <h1 align="center">
- <b>Thanks to these amazing people
+ <b>Thanks to these amazing people</b>
 <h1>
 <a href="https://github.com/mrbhatt2348/iBlog/contributors">
   <img src="https://contrib.rocks/image?repo=mrbhatt2348/iBlog&&max=817" />
@@ -65,7 +90,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 </p>
   
-  <br>
+<br>
 
   
   
