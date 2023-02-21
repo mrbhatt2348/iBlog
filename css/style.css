@@ -48,7 +48,12 @@ body{
 .dark ul li a{
   color: #fff;
 }
-
+.dark .grey{
+  color: white;
+}
+.dark .main1{
+  color: white;
+}
 .nav-left ul li a:hover {
   color: var(--main-bg-color);
   transform: scale(1.009);
