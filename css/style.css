@@ -49,7 +49,7 @@ body{
   color: #fff;
 }
 .dark .grey{
-  color: white;
+  color: black !important;
 }
 .dark .main1{
   color: white;
