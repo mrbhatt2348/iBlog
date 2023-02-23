@@ -4,6 +4,12 @@
     --boldtxt-color: green;
 }
 
+.dark {
+    --txt-shadow-color: #e78128;
+    --popup-bgcolor: orange;
+    --boldtxt-color: lime;
+}  
+
 .popup-container {
     top: 50%;
     left: 50%;
