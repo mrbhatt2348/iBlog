@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/membership.css">
     <link rel="stylesheet" href="css/go_to_top.css">
+    <link rel="stylesheet" href="css/popup.css">
     <title>iBlog - Heaven for bloggers</title>
 </head>
 <body>
@@ -45,6 +46,12 @@
     <div class="max-width-1 m-auto">
         <hr>
     </div>
+    <!-- popup -->
+    <div class="popup-container disable-text-selection">
+        <p class="popup"><span>Thank you</span> for reaching out!</p>
+        <button type="submit" class="btn hide-popup">Ok</button>
+    </div>
+    <!-- form -->
     <div class="contact-content font1 max-width-1 m-auto">
         <div class="max-width-1 m-auto mx-1">
             <h2>Feel Free to Contact Us</h2>
@@ -62,7 +69,7 @@
                     <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
                 </div>
                 <div class="form-box">
-                    <button class="btn">Submit</button>
+                    <button class="btn show-popup">Submit</button>
                 </div>
 
             </div>
@@ -74,5 +81,6 @@
     </div>
     <script src="./dark-light-mode.js"></script>
     <script src="go_to_top.js"></script>
+    <script src="./popup.js"></script>
 </body>
 </html>
