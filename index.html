@@ -14,6 +14,21 @@
 </head>
 
 <body>
+    <!--------Preloader---------------->
+      <div class="preloader">
+
+        <div class="dots-container">
+            <div class="dot red"></div>
+            <div class="dot green"></div>
+            <div class="dot yellow"></div>
+        </div>
+
+        <div class="preloader-text">
+            Loading...
+        </div>
+    </div>
+
+<!------------------------------------------->
     <button class="gotop">
         <img src="img/upButton.png" alt="arrow up">
     </button>
@@ -216,6 +231,28 @@
 
     <script src="./dark-light-mode.js"></script>
     <script src="go_to_top.js"></script>
+
+     <!--------------Preloader Script---------------
+     <script>
+        var loader = document.querySelector(".loader");
+        window.addEventListener("load", vanish);
+       function vanish(){
+         loader.classList.add("disappear");
+       }
+       
+       </script>-->
+       <script>
+const preloader = document.querySelector(".preloader");
+const preloaderDuration = 500;
+
+const hidePreloader = () => {
+    setTimeout(() => {
+        preloader.classList.add("hide");
+    }, preloaderDuration);
+}
+
+window.addEventListener("load", hidePreloader);
+</script>
 </body>
 
 
