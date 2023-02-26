@@ -6,6 +6,81 @@
 body{
   background-color: #232323;
 }
+
+/* ===========preloader css ==========*/
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #f1dbbf;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 4000ms;
+  z-index: 2000;
+}
+
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.preloader .preloader-text {
+  color: #838383;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 15px;
+}
+
+.preloader .dots-container {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.preloader .dot {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.preloader .dot.red {
+  background:#623005;
+  animation: bounce 1000ms infinite;
+}
+
+.preloader .dot.green {
+  background: #d56c16de;
+  animation: bounce 1000ms infinite;
+  animation-delay: 200ms;
+}
+
+.preloader .dot.yellow {
+  background: #ff8000 ;
+  animation: bounce 1000ms infinite;
+  animation-delay: 400ms;
+}
+
+@keyframes bounce {
+  50% {
+      transform: translateY(16px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/*=================================*/
+
 .navigation {
   margin-top: 25px;
   font-family: var(--font1);
