@@ -350,3 +350,47 @@ input:checked + .slider:before {
   background-color: white;
 }
 
+
+#newsin {
+  /* width: 75%; */
+  text-align: center;
+  padding-top: 100px;
+  border: 2px solid black;
+  /* padding: 50px; */
+  padding-bottom: 10px;
+  margin: 100px;
+  border-radius: 15px;
+  background-color: rgb(239 235 229);
+  box-shadow: 1px 2px 1.2px rgb(166, 112, 11);
+}
+
+#info {
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#nameuser{
+  width: 75%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#checkedbox {
+  padding: 50px;
+  margin: 10px;
+  position: relative;
+  left: 0;
+}
+
+#submitnews {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
