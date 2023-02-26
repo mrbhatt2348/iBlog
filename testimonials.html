@@ -1,83 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/utils.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/testimonials.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="stylesheet" href="css/membership.css">
-    <link rel="stylesheet" href="css/go_to_top.css">
-    <title>Testimonials</title>
-  </head>
-  <body>
-    <button class="gotop">
-      <img src="img/upButton.png" alt="arrow up">
-  </button>
-    <header>
-      <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="/">
-                <span><img src="img/logo.png" width="94px" alt=""></span>
-            </a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a style="color: grey !important;" href="testimonials.html">Testimonials</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./css/testimonials.css">
+
+</head>
+
+<body>
+    <div class="slide-container swiper">
+        <h3>Testimonial</h3>
+        <h2>-What People Think-</h2>
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+
+                <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"> </span>
+
+                    <div class="card-image">
+                        <img src="../img/face1.jpeg" alt=" " class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">Rishi</h2>
+                    <p class="description">This blog has been so helpful in my journey to becoming a better writer. The articles are informative and
+                        engaging, and the writer always provides great examples that I can learn from. Highly recommend!</p>
+                
+                    <button class="button">view more</button>
+                
+                </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"> </span>
+    
+                        <div class="card-image">
+                            <img src="../img/face2.jpeg" alt=" " class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Soham</h2>
+                        <p class="description">I stumbled upon this blog by accident, and I am so glad I did! The articles are well-written and easy to
+                            understand, even for someone who is new to writing. I have already recommended this site to several of my
+                            friends.</p>
+                    
+                        <button class="button">view more</button>
+                    
+                    </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"> </span>
         
-        <div class="nav-right">
-            <form action="search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
-        </div>
-        <label class="switch">
-          <input type="checkbox" onclick="dark()" class="button">
-          <span class="slider"></span>
-      </label>
+                            <div class="card-image">
+                                <img src="../img/face3.jpeg" alt=" " class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Aditya</h2>
+                            <p class="description">As a professional writer, I am always on the lookout for resources that can help me improve my craft.
+                                My Blog is one of my go-to sources for inspiration and tips. Keep up the great work! a must use app.</p>
+                        
+                            <button class="button">view more</button>
+                        
+                        </div>
+                        </div>
 
-    </nav>
-    </header>
-    <div class="max-width-1 m-auto">
-      <hr>
-  </div>
-
-    <main>
-      <h2>Testimonials</h2>
-      <section class="content">
-        <blockquote>
-            <img class= "faces" src="/img/img1.jpg" alt="customer1">
+                        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"> </span>
             
-          <p class="text">"This blog has been so helpful in my journey to becoming a better writer. The articles are informative and
-            engaging, and the writer always provides great examples that I can learn from. Highly recommend!"</p>
-            <h3 class="name">- Jane Doe</h3>
-        </blockquote>
-        <blockquote>
-            <img class= "faces" src="/img/img2.png" alt="customer2">
-          <p class="text">"I stumbled upon this blog by accident, and I am so glad I did! The articles are well-written and easy to
-            understand, even for someone who is new to writing. I have already recommended this site to several of my
-            friends."</p>
-          <h3 class="name">- John Smith</h3>
-        </blockquote>
-        <blockquote>
-            <img class= "faces" src="/img/img3.jpg" alt="Customer3">
-          <p class="text">"As a professional writer, I am always on the lookout for resources that can help me improve my craft.
-            My Blog is one of my go-to sources for inspiration and tips. Keep up the great work!"</p>
-          <h3 class="name">- Sarah Johnson</h3>
-        </blockquote>
-      </section>
-    </main>
-    <div class="footer">
-        <p>Copyright &copy; Raj Bhatt </p>
+                                <div class="card-image">
+                                    <img src="../img/face4.jpeg" alt=" " class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Kamal</h2>
+                                <p class="description">This blog has been so helpful in my journey to becoming a better writer. The articles are informative and
+                                    engaging, and the writer always provides great examples that I can learn from. Highly recommend! </p>
+                            
+                                <button class="button">view more</button>
+                            
+                            </div>
+                            </div>
+
+                            
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"> </span>
+                
+                                    <div class="card-image">
+                                        <img src="../img/face5.jpeg" alt=" " class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Rohan</h2>
+                                    <p class="description">I stumbled upon this blog by accident, and I am so glad I did! The articles are well-written and easy to
+                                        understand, even for someone who is new to writing. I have already recommended this site to several of my
+                                        friends</p>
+                                
+                                    <button class="button">view more</button>
+                                
+                                </div>
+                                </div>
+
+                                
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"> </span>
+                    
+                                        <div class="card-image">
+                                            <img src="../img/face6.jpeg" alt=" " class="card-img">
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2 class="name">Pritam</h2>
+                                        <p class="description">As a professional writer, I am always on the lookout for resources that can help me improve my craft.
+                                            My Blog is one of my go-to sources for inspiration and tips. Keep up the great work! a must use app. </p>
+                                    
+                                        <button class="button">view more</button>
+                                    
+                                    </div>
+                                    </div>
+
+                                    
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"> </span>
+                        
+                                            <div class="card-image">
+                                                <img src="../img/img1.jpg" alt=" " class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">Diptesh </h2>
+                                            <p class="description">This blog has been so helpful in my journey to becoming a better writer. The articles are informative and
+                                                engaging, and the writer always provides great examples that I can learn from. Highly recommend!</p>
+                                        
+                                            <button class="button">view more</button>
+                                        
+                                        </div>
+                                        </div>
+
+                                        
+                                        <div class="card swiper-slide">
+                                            <div class="image-content">
+                                                <span class="overlay"> </span>
+                            
+                                                <div class="card-image">
+                                                    <img src="../img/img2.png" alt=" " class="card-img">
+                                                </div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2 class="name">Bitan</h2>
+                                                <p class="description">I stumbled upon this blog by accident, and I am so glad I did! The articles are well-written and easy to
+                                                    understand, even for someone who is new to writing. I have already recommended this site to several of my
+                                                    friends</p>
+                                            
+                                                <button class="button">view more</button>
+                                            
+                                            </div>
+                                            </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"> </span>
+        
+                            <div class="card-image">
+                                <img src="../img/img3.jpg" alt=" " class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Emilia</h2>
+                            <p class="description">As a professional writer, I am always on the lookout for resources that can help me improve my craft.
+                                My Blog is one of my go-to sources for inspiration and tips. Keep up the great work! a must use app. </p>
+                        
+                            <button class="button">view more</button>
+                        
+                        </div>
+                        </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
     </div>
-    <script src="./dark-light-mode.js"></script>
-    <script src="go_to_top.js"></script>
-  </body>
+    
+</body>
+
+<script src="./swiper-bundle.min.js"></script>
+<script src="./testimonial.js"></script>
+
 </html>
