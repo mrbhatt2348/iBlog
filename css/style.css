@@ -396,7 +396,6 @@ input:checked + .slider:before {
 .footer_c{
   background-color: black;
   color: white;
-  height: 40px;
 }
 .foot {
   display: flex;
@@ -420,10 +419,10 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 .icons i {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  margin-bottom: 10px !important;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 6px !important;
   border-radius: 100%;
   background-color: #33353d;
   color: white;
@@ -447,11 +446,15 @@ input:checked + .slider:before {
   background-color: #ea2c59;
   color: #fff;
 }
+.email :hover {
+  background-color:#623005;
+  color: white;
+}
 
 .footer_c p{
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .footer1 {
   background-color: var(--main-bg-color);
