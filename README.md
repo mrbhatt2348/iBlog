@@ -1,7 +1,7 @@
 
 # 📜 iBlog
 
-iBlog - A dynamic blogging platform for valuable information, easy navigation and modern design. Home, About, Contact, and Search bar included.
+iBlog - A dynamic blogging platform for valuable information, easy navigation and modern design. Our website include various sections of Home, About, Membership, Testimonials , Contact and Search bar.
 
 
 ## <h1 align=center>Screenshot 📸</h1>
@@ -11,23 +11,23 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 ## 📌 Key Features
 
-- Responsive design: The website should be optimized for viewing on various devices, including desktop computers, laptops, tablets, and smartphones.
+- Responsive design: The website should be optimized for viewing on various digital gadgets including desktop computers, laptops, tablets, and smartphones.
 
-- Social media integration: Blog owners should be able to easily share their posts on popular social media platforms such as Facebook, Twitter, and Instagram.
+- Social media integration: Blog owners should be able to easily share their posts on popular social media platforms such as Facebook, Twitter, LinkedIn  , Instagram and so on.
 
-- User-friendly comment system: A blog should have a commenting system that is easy to use, both for the blogger and for the visitors to the blog.
+- User-friendly comment system: A blog should have a commenting system that is easy to use, both for the blogger and for the visitors to read the blog.
 
-- Analytics and statistics: Blog owners should be able to view analytics and statistics related to their blog, such as page views, unique visitors, and popular posts.
+- Analytics and statistics: Blog owners should be able to view analytics and statistics related to their blog such as page views, unique visitors, post impressions and popular posts.
 
-- Categories and tags: Blogs should have a system for organizing posts into categories and tags, to help visitors find relevant content more easily.
+- Categories and tags: Blogs should have a system for organizing posts into their respective categories and tags based on the topic and relevant information which will help visitors to find their suitable content more easily.
 
-- Related posts: A related posts feature can show visitors other articles on the blog that are related to the post they are currently reading, encouraging them to explore the blog further.
+- Related posts: A related post feature can show visitors other articles on the blog that are related to the post which they are currently reading in order to encourage them to explore the blog further.
 
 - Email subscription: Visitors should be able to subscribe to the blog via email, to receive notifications of new posts.
 
-- Contact form: A contact form should be provided, to allow visitors to easily get in touch with the blog owner.
+- Contact form: A contact form should be provided to allow visitors to easily get in touch with the blog owner.
 
-- Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading horizons.
+- Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading skills.
 
 ## Repo Status
 
@@ -42,7 +42,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
   
  - Drop a :star: on the Github repository (optional)<br/>
 
-- Before Contribute Please read [CONTRIBUTING.md](https://github.com/mrbhatt2348/iBlog/blob/main/contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/mrbhatt2348/iBlog/blob/main/CODE_OF_CONDUCT.md)
+- Before doing a Contribution Please read [CONTRIBUTING.md](https://github.com/mrbhatt2348/iBlog/blob/main/contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/mrbhatt2348/iBlog/blob/main/CODE_OF_CONDUCT.md)
 
 <br>
 
@@ -59,7 +59,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 
 
-## 👩🏽‍💻 Contributing
+## 👩🏽‍💻 Contribution
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are greatly appreciated.
