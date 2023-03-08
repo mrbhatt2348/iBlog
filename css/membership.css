@@ -12,6 +12,12 @@
 body{
   background-color: #F1DBBF;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 h2{
   text-align: center;
@@ -54,6 +60,7 @@ h2{
   color: #333;
 }
 /* swiper button css */
+
 .nav-btn {
   height: 40px;
   width: 40px;
@@ -76,14 +83,7 @@ h2{
 .swiper-pagination-bullet-active {
   background-color: #4070f4;
 }
-@media screen and (max-width: 768px) {
-  .slide p {
-    padding: 0 20px;
-  }
-  .nav-btn {
-    display: none;
-  }
-}
+
 
 .elementor-widget-container1{
   font-size: 40px;
@@ -117,15 +117,16 @@ h3{
 .price {
   list-style-type: none;
   border: 1px solid #eee;
-  margin: 0;
+  margin: 30px;
   padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Add shadows on hover */
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.977)
 }
 
 /* Pricing header */
@@ -137,7 +138,7 @@ h3{
 
 /* List items */
 .price li {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #575656b9;
   padding: 20px;
   text-align: center;
 }
@@ -148,8 +149,11 @@ h3{
 }
 
 /* The "Sign Up" button */
-.button {
-  background-color: #04AA6D;
+.button1 {
+  background-color: #e89a13;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: fit-content;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -158,8 +162,58 @@ h3{
   font-size: 18px;
 }
 
-@media only screen and (max-width: 600px) {
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 1200px) {
+  /* .rows {
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .price{
+    margin: 30px 0;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 712px) {
   .columns {
     width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+}
+
+
