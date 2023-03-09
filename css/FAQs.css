@@ -1,74 +1,57 @@
-body{
-    font-family: 'Work Sans', sans-serif;
-}
-.faq-heading{
-    border-bottom: black;
-    padding: 20px 60px;
-}
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
-background-image: url("../img/11.svg");
-background-blend-mode: difference;
-  width: 100%;
-  height: inherit;
-  opacity: 0.15;
-  border-radius: 12px;
-  color: black;
-
-}
-.hr-line{
-  width: 60%;
-  margin: auto;
-  
-}
-/* Style the buttons that are used to open and close the faq-page body */
-.faq-page {
-    /* background-color: #eee; */
-    color: black;
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: transparent;
+    color: #444;
     cursor: pointer;
-    padding: 30px 20px;
-    width: 60%;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
-    margin: auto;
-
-}
-.faq-body{
-    margin: auto;
-    /* text-align: center; */
-   width: 50%; 
-   padding: auto;
-   background-color: #bd6418;   
-}
-
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.faq-page:hover {
-    background-color: #F9F9F9;
-}
-
-/* Style the faq-page panel. Note: hidden by default */
-.faq-body {
+    transition: 0.4s;    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color:darksalmon;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
     padding: 0 18px;
-    background-color: white;
-    display: none;
+    background-color:khaki;
+    max-height: 0;
     overflow: hidden;
-}
+    transition: max-height 0.2s ease-out;
+  }
 
-.faq-page:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: black;
+    color: #777;
     float: right;
     margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  .faqcontent{
+    height: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 9px;
+    position: relative; 
+    overflow: hidden;
+  }
+  .faqcontent::after{
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
