@@ -1,10 +1,15 @@
 * {
   margin: 0;
   padding: 0; 
+  font-family: var(--font1);
 }
 
 body{
   background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===========preloader css ==========*/
@@ -79,12 +84,10 @@ body{
   }
 }
 
-/*=================================*/
+/*==============NavBar===================*/
 
 .navigation {
-  margin-top: 25px;
-  font-family: var(--font1);
-  /* height: 74px;  */
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,34 +95,45 @@ body{
 
 .nav-left {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-left span {
-  font-size: 35px;
-  padding-top: 10px;
+.nav-left a img {
+  height: 65px;
+  width: 65px;
+  margin-right: 10px;
 }
-
-.nav-left ul {
+.nav-ul li .active{
+  background-color: #ff8000;
+  border: 2px solid red;
+}
+.nav-ul {
   display: flex;
   align-items: center;
-  margin: 0 77px;
-  font-size: 22px;
-  padding-bottom: 23px;
-}
-
-.nav-left ul li {
   list-style: none;
-  margin: 0 14px;
-  font-family: var(--font2);
-  transition: all 0.3s ease-in-out;
 }
 
-.nav-left ul li a {
+.nav-ul li {
+  padding: 0 5px;
+}
+.nav-ul li a{
   text-decoration: none;
-  color: black;
-  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 5px 8px;
+  border-radius: 5px;
+  transition: 0.4s ease-in;
 }
-
+.nav-ul li:hover a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #ff8000;
+  padding: 5px 8px;
+  border-radius: 5px;
+  transition: 0.4s ease-in;
+}
 .dark ul li a{
   color: #fff;
 }
@@ -129,15 +143,43 @@ body{
 .dark .main1{
   color: white;
 }
-.nav-left ul li a:hover {
-  color: var(--main-bg-color);
-  transform: scale(1.009);
-  transition: 1ms linear;
-  /* z-index: 2; */
-  /* box-shadow: 1px 1px 2px .5px var(--main-bg-color); */
-  border-bottom: 2px solid var(--main-bg-color);
-  padding: 4px;
+.nav-right{
+  position: relative;
 }
+
+.input {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: #ffd52d;
+  outline: none;
+  transition: .5s;
+}
+.nav-right:hover input{
+  width: 200px;
+  background: #3b3640;
+  border-radius: 20px;
+}
+.nav-right i{
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  color: #ffd52d;
+  transition: .2s;
+}
+.nav-right:hover i{
+  opacity: 0;
+  z-index: -1;
+}
+
 
 .signin {
   border-radius: 12px;

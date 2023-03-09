@@ -18,33 +18,38 @@
     <button class="gotop">
         <img src="img/upButton.png" alt="arrow up">
     </button>
-    <nav class="navigation max-width-1 m-auto">
+     <!-- --------------------------Nav bar start-------------------------- -->
+     <nav class="navigation">
         <div class="nav-left">
-            <a href="index.html">
-                <span><img src="img/logo.png" width="94px" alt=""></span>
-            </a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a style="color: grey !important;" href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-
-            </ul>
+          <a href="index.html">
+            <img src="img/logo.png" width="94px" alt="logo" />
+          </a>
+          <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
         </div>
         <div class="nav-right">
-            <form action="search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
-
+          <form action="search.html" class="saerch-bar" method="get">
+            <input
+              class="input"
+              type="text"
+              name="query"
+              onmouseout="this.value = ''; this.blur();"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
         </div>
         <label class="switch">
-            <input type="checkbox" onclick="dark()" class="button">
-            <span class="slider"></span>
+          <input type="checkbox" onclick="dark()" class="button" />
+          <span class="slider"></span>
         </label>
-    </nav>
+      </nav>
+      <!-- ---------------------------Nav bar closed----------------------------- -->
     <div class="max-width-1 m-auto">
         <hr>
     </div>
