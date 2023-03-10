@@ -3,7 +3,23 @@
 * {
 	box-sizing: border-box;
 }
-
+#home{
+	/* background-color: black; */
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  cursor: pointer;
+	  position: fixed;
+	  right: 2rem;
+	  bottom: 2rem;
+	  border-radius: 15px;
+	  color: #ffffff;
+	  background-color: #121916;
+	  height: 2.5rem;
+	  width: 2.5rem;
+	  font-size: 1.2;
+	  z-index: 999;
+  }
 body {
 	background: rgba(247, 231, 200, 0.808);
 	display: flex;
@@ -13,6 +29,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
+	overflow: hidden;
 }
 
 h1 {
