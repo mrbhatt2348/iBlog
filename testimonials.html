@@ -20,6 +20,38 @@
 </head>
 
 <body>
+     <!-- --------------------------Nav bar start-------------------------- -->
+     <nav class="navigation">
+        <div class="nav-left">
+          <a href="index.html">
+            <img src="img/logo.png" width="94px" alt="logo" />
+          </a>
+          <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a class="active" href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <form action="search.html" class="saerch-bar" method="get">
+            <input
+              class="input"
+              type="text"
+              name="query"
+              onmouseout="this.value = ''; this.blur();"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <label class="switch">
+          <input type="checkbox" onclick="dark()" class="button" />
+          <span class="slider"></span>
+        </label>
+      </nav>
+      <!-- ---------------------------Nav bar closed----------------------------- -->
     <div class="slide-container swiper">
         <h3>Testimonial</h3>
         <h2>-What People Think-</h2>
