@@ -179,5 +179,9 @@
     
 }
 
+.dark .card-wrapper, .dark .slide-content{
+    background-color: #000;
+    color: white;
+}
 
   
