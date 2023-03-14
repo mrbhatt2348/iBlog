@@ -35,7 +35,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 1.5rem;
     padding-bottom: 20px ;
     font-family: 'Ubuntu',sans-serif;
 }
@@ -64,17 +64,19 @@
     font-weight: 300;
     color:#d56c16de;
 }
+.text{
+    margin-bottom:1.5rem;
+}
 .contact .contact-content .info .sub-title{
     color:#333;
 }
 .contact .contact-content{
     display:flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
 }
 .contact .contact-content .left{
-   width: 45%;
+   width: 40%;
 }
 .contact .contact-content .left{
     font-size: 20px;
@@ -85,9 +87,10 @@
 }
 .contact .right form  .fields{
       display:flex;
+      margin-bottom:15px;
 }
 .contact .right form .fields .field{
-    height:60px;
+    height:60px ;
     width:100%;
     margin-bottom: 15px;
 }
@@ -96,6 +99,34 @@
     width:100%;
 }
 
+.contact .right form .fields .field.success input{
+    border: 2px solid #2ecc71 !important;
+    width:98%; 
+   
+}
+.contact .right form .fields .field.error input{
+    border: 2px solid #e74c3c!important;
+    width:98%;
+
+}
+.contact .right form .textarea.error textarea{
+    border: 2px solid #e74c3c!important;
+    width:98%;
+
+}
+.field small{
+    visibility: hidden;
+    position: relative ;
+    bottom: 0;
+    left: 0;
+    color: #e74c3c;
+    margin-bottom:10px;
+}
+
+.field.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
 .contact .right h4{
   color: #d56c16de;
   text-align: center;
@@ -108,6 +139,7 @@
 
 .contact .right form .name{
     margin-right: 10px;
+    
 }
 .contact .right form .email{
     margin-left: 10px;
@@ -117,19 +149,22 @@
     height: 100%;
     width:100%;
     border:1px solid #d56c16de;
+    background:var(--bg-color);
     border-radius: 6px;
     outline: none;
-    padding: 0 15px;
+    padding: 15px 15px;
     font-size: 17px;
+    color:  #d56c16de;
     font-family: 'poppins',sans-serif;
 }
 .contact .right form .textarea textarea{
-    padding-top: 10px;
+    padding-top: 10px!important;
     resize: none;
 } 
 .contact .right form .button{
-    height:47px;
-    width:170px;
+    padding-top:1rem;
+    height:70px;
+    width:190px;
 }
 .contact .right form .button button{
     width:100%;
