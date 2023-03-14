@@ -97,23 +97,23 @@
 
     <div class="column right">
       <div class="text"><h3>Feel free to ask</h3></div>
-      <form action="#">
+      <form action="https://formsubmit.co/your@email.com" method="POST">
           <div class="fields">
               <div class="field name">
-                   <input type="text" placeholder="Name" required>
+                   <input name="name" type="text" placeholder="Name" required>
               </div>
               <div class="field email">
-                  <input type="text" placeholder="email" required>
+                  <input type="text" name="email" placeholder="email" required>
              </div>
           </div>
              <div class="field">
-              <input type="text" placeholder="Subject"required>
+              <input type="text" name="field" placeholder="Subject"required>
             </div>
             <div class="field textarea">
-              <textarea cols="70" rows="100" placeholder="Message" required></textarea>
+              <textarea name="content" cols="70" rows="100" placeholder="Message" required></textarea>
             </div>
             <div class="button">
-              <button type="submit">Send massage</button>
+              <button name="submit" type="submit" value="submit">Send Message</button>
           </div>
       </form>
   </div>
