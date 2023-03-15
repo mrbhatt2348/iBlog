@@ -29,6 +29,8 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 - Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading skills.
 
+- Dark Mode: Added Dark mode so that user gets comfortable with the website.
+
 ## Repo Status
 
 <div align="center">
@@ -47,7 +49,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 <br>
 
 
-##  <h1 align=center>CONTRIBUTION 👏</h1>
+##  <h1 align=center>CONTRIBUTIONS 👏</h1>
 
 ## 🧑‍💻 About the Admin
 
@@ -59,7 +61,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 
 
-## 👩🏽‍💻 Contribution
+## 👩🏽‍💻 Contributions
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are greatly appreciated.
@@ -71,7 +73,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 <br>
 <div>
 <h1 align="center">
- <b>Thanks to these amazing people</b>
+ <b>Thanks to these amazing people!!</b>
 <h1>
 <a href="https://github.com/mrbhatt2348/iBlog/contributors">
   <img src="https://contrib.rocks/image?repo=mrbhatt2348/iBlog&&max=817" />
@@ -80,7 +82,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
    
 
-<h1 align=center> Project Admin  🤵 </h1>
+<h1 align=center> Project's Admin  🤵 </h1>
 
   <p align="center">
   <a href="https://github.com/mrbhatt2348/iBlog/blob/master/assets/0.png"?v=4" width="15%" /></a>
