@@ -104,7 +104,7 @@ body{
   width: 65px;
   margin-right: 10px;
 }
-.nav-ul li .active{
+.nav-ul li .activee{
   background-color: #ff8000;
   border: 2px solid red;
 }
@@ -146,7 +146,6 @@ body{
 .nav-right{
   position: relative;
 }
-
 .input {
   padding: 10px;
   width: 50px;
@@ -593,3 +592,69 @@ input:checked + .slider:before {
   }
 }
 
+.reveall {
+  /* position: relative; */
+  opacity: 0;
+  overflow: hidden;
+}
+
+.reveall.active {
+  opacity: 1;
+  background: transparent;
+}
+.content-left h3{
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.active.fadeleft{
+  animation: fadeleft 2s ease-in-out; 
+}
+.active.faderight {
+  animation: faderight 2s ease-in-out;
+}
+.active.fadein {
+  animation: fadein 2s ease-in-out;
+}
+@keyframes fadeleft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes faderight {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    /* transform: translateX(50px); */
+    opacity: 0;
+  }
+  100% {
+    /* transform: translateX(0); */
+    opacity: 1;
+  }
+}
