@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/membership.css">
     <link rel="stylesheet" href="css/go_to_top.css">
     <link rel="stylesheet" href="css/popup.css">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>iBlog - Heaven for bloggers</title>
 </head>
@@ -31,7 +30,7 @@
             <li><a href="membership.html">Membership</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
             <li><a href="FAQs.html">FAQs</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a class="activee" href="contact.html">Contact</a></li>
             <li><a href="login.html">Login</a></li>
           </ul>
         </div>
@@ -88,37 +87,33 @@
     </div>-->
 
 
-    <section class="contact" id="contact">
+    <section class="contact animated fadeIn" id="contact">
       <div class="max-width">
           <h3 class="title">Contact Us</h3>
-      <div class="contact-content" >
+      <div class="contact-content">
        <div class="column left">
-       <img src="img/contactus.png" class="image-fluid" alt="">
+      
       </div>
 
-    <div class="column right" style="padding: 4rem;">
+    <div class="column right">
       <div class="text"><h3>Feel free to ask</h3></div>
-      <form action="https://formsubmit.co/your@email.com" id="form" method="POST">
+      <form action="https://formsubmit.co/your@email.com" method="POST">
           <div class="fields">
               <div class="field name">
-                   <input name="name" type="text" id="name" placeholder="Name" >
-                   <small>Error message</small>
+                   <input name="name" type="text" placeholder="Name" required>
               </div>
               <div class="field email">
-                  <input type="text" name="email" id="email" placeholder="E-mail" >
-                  <small>Error message</small>
+                  <input type="text" name="email" placeholder="email" required>
              </div>
           </div>
              <div class="field">
-              <input type="text"  id="subject" placeholder="Subject">
-              <small>Error message</small>
+              <input type="text" name="field" placeholder="Subject"required>
             </div>
-            <div class="field textarea" style="padding-top: 1rem;">
-              <textarea name="content" cols="70" rows="100" placeholder="Message"></textarea>
-              <small>Error message</small>
+            <div class="field textarea">
+              <textarea name="content" cols="70" rows="100" placeholder="Message" required></textarea>
             </div>
             <div class="button">
-              <button name="submit" type="submit" id="btn" value="submit">Send Message</button>
+              <button name="submit" type="submit" value="submit">Send Message</button>
           </div>
       </form>
   </div>
@@ -174,6 +169,5 @@
     <script src="./dark-light-mode.js"></script>
     <script src="go_to_top.js"></script>
     <script src="./popup.js"></script>
-    <script src="./contactform.js"></script>
 </body>
 </html>
