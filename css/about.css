@@ -1,0 +1,17 @@
+.max-width-1 #feat{
+      border: solid red 3px;
+      border-radius: 8px;
+      box-shadow: 6px 6px 4px 4px orangered;
+      border-bottom: 10px;
+      font-size: large;
+}
+
+.max-width-1{
+    margin-bottom: 10px;
+}
+
+.max-width-1 b,
+h1{
+    color:brown;
+}
+
