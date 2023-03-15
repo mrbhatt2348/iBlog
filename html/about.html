@@ -116,6 +116,28 @@
             <p class="animated fadeIn"><b class="about-b">iBlog</b> is an informational website published on the World Wide Web consisting of discrete,
             often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order so that
             the most recent post appears first, at the top of the web page.</p>
+                 <div class="stats" id="stats">
+              <h2 style="text-align: center">Our Stats</h2>
+              <div class="container3">
+                <div class="counter-grid">
+                  <div class="counter-item">
+                    <img
+                      src="images/web-development.png"
+                      alt="Members"
+                      class="counter-img"
+                    /> 
+                    <h1 class="counter" data-target="1000">0</h1>
+                  </div>
+               
+                  <div class="counter-item">
+                    <img src="images/web-design.png" alt="Blogs" class="counter-img" />
+                    <h1 class="counter" data-target="200">0</h1>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+        
             <h1 class="about-heading">Features</h1>
             <hr>
             <div id="feat"  class="animated fadeIn about-content">
@@ -185,6 +207,49 @@
     </div>
     <script src="../js/dark-light-mode.js"></script>
     <script src="../js/go_to_top.js"></script>
+    <script>
+      let section_counter = document.querySelector('#stats');
+      let counters = document.querySelectorAll('.counter-item .counter');
+      
+      // Scroll Animation
+      
+      let CounterObserver = new IntersectionObserver(
+        (entries, observer) => {
+          let [entry] = entries;
+          if (!entry.isIntersecting) return;
+      
+          let speed = 200;
+          counters.forEach((counter, index) => {
+            function UpdateCounter() {
+              const targetNumber = +counter.dataset.target;
+              const initialNumber = +counter.innerText;
+              const incPerCount = targetNumber / speed;
+              if (initialNumber < targetNumber) {
+                counter.innerText = Math.ceil(initialNumber + incPerCount);
+                setTimeout(UpdateCounter, 40);
+              }
+            }
+            UpdateCounter();
+      
+            if (counter.parentElement.style.animation) {
+              counter.parentElement.style.animation = '';
+            } else {
+              counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${
+                index / counters.length + 0.5
+              }s`;
+            }
+          });
+          observer.unobserve(section_counter);
+        },
+        {
+          root: null,
+          threshold: window.innerWidth > 768 ? 0.4 : 0.3,
+        }
+      );
+      
+      CounterObserver.observe(section_counter);
+        
+      </script>
 </body>
 
 </html>
