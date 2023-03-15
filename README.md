@@ -6,7 +6,7 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 
 ## <h1 align=center>Screenshot 📸</h1>
 
-![image](https://user-images.githubusercontent.com/85965606/220142925-dcc30f99-a4fa-40dd-b998-37be47add99a.png)
+![image](img/readme.png)
 
 
 ## 📌 Key Features
