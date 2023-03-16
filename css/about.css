@@ -1,0 +1,17 @@
+.max-width-1 .about-content{
+    border:solid red 2px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 4px orangered;
+}
+
+.about-footer{
+    margin-top: 15px;
+}
+
+.max-width-1 .about-b{
+    color:orangered;
+}
+
+.about-heading{
+    color:red;
+}

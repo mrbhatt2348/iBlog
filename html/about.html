@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/logo.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/membership.css">
+    <link rel="stylesheet" href="../css/go_to_top.css">
+    <link rel="stylesheet" href="../css/translate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>iBlog - Heaven for bloggers</title>
+</head>
+<style>
+    p,li{
+        color:#000 ;
+    }
+
+    .dark p,.dark li{
+        color: #fff;
+    }
+
+    .contact-content p{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .contact-content p b{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    hr{
+        width: 25%;
+        margin-left: 10px;
+    }
+
+    #feat,h1,#blog{
+        padding-left: 10px;
+    }
+
+    #feat li{
+        line-height: 30px;
+    }
+
+    #blog li{
+        line-height: 30px;
+    }
+</style>
+<body>
+  <script src="../animations.js"></script>
+    <button class="gotop">
+        <img src="../img/upButton.png" alt="arrow up">
+    </button>
+     <!-- --------------------------Nav bar start-------------------------- -->
+     <nav class="navigation">
+        <div class="nav-left">
+          <a href="../html/index.html">
+            <img src="../img/logo.png" width="94px" alt="logo" />
+          </a>
+          <ul class="nav-ul">
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a class="activee" href="about.html">About</a></li>
+            <li><a href="../html/membership.html">Membership</a></li>
+            <li><a href="../html/testimonials.html">Testimonials</a></li>
+            <li><a href="../html/FAQs.html">FAQs</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+            <li><a href="../html/login.html">Login</a></li>
+            <li>
+              <div id="google_translate_element"></div>
+              <script src="../js/translate.js"></script>
+
+          <script type="text/javascript">
+              function googleTranslateElementInit() {
+                  new google.translate.TranslateElement(
+                      {pageLanguage: 'en'},
+                      'google_translate_element'
+                  );
+              }
+          </script>
+
+          <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+          </script>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <form action="search.html" class="saerch-bar" method="get">
+            <input
+              class="input"
+              type="text"
+              name="query"
+              onmouseout="this.value = ''; this.blur();"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <label class="switch">
+          <input type="checkbox" onclick="dark()" class="button" />
+          <span class="slider"></span>
+        </label>
+      </nav>
+      <!-- ---------------------------Nav bar closed----------------------------- -->
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content font1 max-width-1 m-auto">
+        <div class="max-width-1 m-auto mx-1">
+            <p class="animated fadeIn"><b class="about-b">iBlog</b> is an informational website published on the World Wide Web consisting of discrete,
+            often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order so that
+            the most recent post appears first, at the top of the web page.</p>
+                 <div class="stats" id="stats">
+              <h2 style="text-align: center">Our Stats</h2>
+              <div class="container3">
+                <div class="counter-grid">
+                  <div class="counter-item">
+                    <img
+                      src="images/web-development.png"
+                      alt="Members"
+                      class="counter-img"
+                    /> 
+                    <h1 class="counter" data-target="1000">0</h1>
+                  </div>
+               
+                  <div class="counter-item">
+                    <img src="images/web-design.png" alt="Blogs" class="counter-img" />
+                    <h1 class="counter" data-target="200">0</h1>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+        
+            <h1 class="about-heading">Features</h1>
+            <hr>
+            <div id="feat"  class="animated fadeIn about-content">
+                <li><b class="about-b"> Social media integration : </b>Blog owners should be able to easily share their posts on popular social media platforms such
+                as Facebook, Twitter, and Instagram.</li>
+                <li><b class="about-b"> User-friendly comment system : </b>A blog should have a commenting system that is easy to use, both for the blogger and for
+                the visitors to the blog.</li>
+                <li><b class="about-b"> Analytics and statistics : </b>Blog owners should be able to view analytics and statistics related to their blog, such as
+                page views, unique visitors, and popular posts.</li>
+                <li><b class="about-b"> Categories and tags : </b>Blogs should have a system for organizing posts into categories and tags, to help visitors find
+                relevant content more easily.</li>
+                <li><b class="about-b"> Related posts : </b> A related posts feature can show visitors other articles on the blog that are related to the post they
+                are currently reading, encouraging them to explore the blog further.</li>
+                <li><b class="about-b"> Email subscription : </b> Visitors should be able to subscribe to the blog via email, to receive notifications of new posts.</li>
+                <li><b class="about-b"> Related blog suggestion : </b> A feature that suggests other relevant blogs to the reader based on the topics they are
+                interested in, helping them discover new content and expand their reading horizons.</li>
+                <li><b class="about-b">Types of Blogs : </b>
+                Food Blog , 
+                Travel Blog , 
+                Sports Blog , 
+                Art and design Blog , 
+                Lifestyle Blog , 
+                Health and fitness Blog</li>
+                </div>   
+        </div>
+    </div>
+    <div class="footer1 about-footer">
+
+        <div class="footer-content left">
+            <h3>About Us</h3>
+            <p>iBlog is an informational website published on the World Wide Web consisting of discrete,
+                 often informal diary-style text entries (posts). Posts are typically displayed
+                 in reverse chronological order so that the most recent post appears first, at the top of the web page. </p>
+                 <h4>Website designed and Created by </h4> <h2> @Raj Bhatt</h2>
+        </div>
+
+        <div class="footer-content right">
+            <h3>Important Pages</h3>
+               <a href="../html/index.html" >Home</a>
+                <a href="../html/about.html">About</a>
+                <a href="../html/membership.html">Membership</a>
+                <a href="../html/testimonials.html">Testimonial</a>
+                <a href="../html/FAQs.html">FAQs</a>
+                <a href="../html/contact.html">Contact</a>
+        </div>
+        <footer class="foot" >
+            <h3></h3>
+          <div class="icons">
+            <a class ="email" href="#" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            <a class ="twitter" href="#" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a class ="linkedin" href="#" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class ="instagram" href="#" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            
+          </div> 
+           </footer>
+    </div>
+    <div class="footer_c">
+        <p>Copyright &copy; Raj Bhatt </p>
+    </div>
+    <script src="../js/dark-light-mode.js"></script>
+    <script src="../js/go_to_top.js"></script>
+    <script>
+      let section_counter = document.querySelector('#stats');
+      let counters = document.querySelectorAll('.counter-item .counter');
+      
+      // Scroll Animation
+      
+      let CounterObserver = new IntersectionObserver(
+        (entries, observer) => {
+          let [entry] = entries;
+          if (!entry.isIntersecting) return;
+      
+          let speed = 200;
+          counters.forEach((counter, index) => {
+            function UpdateCounter() {
+              const targetNumber = +counter.dataset.target;
+              const initialNumber = +counter.innerText;
+              const incPerCount = targetNumber / speed;
+              if (initialNumber < targetNumber) {
+                counter.innerText = Math.ceil(initialNumber + incPerCount);
+                setTimeout(UpdateCounter, 40);
+              }
+            }
+            UpdateCounter();
+      
+            if (counter.parentElement.style.animation) {
+              counter.parentElement.style.animation = '';
+            } else {
+              counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${
+                index / counters.length + 0.5
+              }s`;
+            }
+          });
+          observer.unobserve(section_counter);
+        },
+        {
+          root: null,
+          threshold: window.innerWidth > 768 ? 0.4 : 0.3,
+        }
+      );
+      
+      CounterObserver.observe(section_counter);
+        
+      </script>
+</body>
+
+</html>
