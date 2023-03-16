@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+	font-family: var(--font1);
 }
 #home{
 	/* background-color: black; */
@@ -21,20 +22,27 @@
 	  z-index: 999;
   }
 body {
-	background: rgba(247, 231, 200, 0.808);
-	display: flex;
-	justify-content: center;
+	background: #F1DBBF;
+	/* display: flex; */
+	/* justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
-	overflow: hidden;
+	flex-direction: column; */
+	/* margin: -20px 0 50px; */
 }
 
-h1 {
+.form{
+	/* background-color: transparent; */
+}
+.saerch-bar{
+	background-color: transparent !important;
+}
+.container{
+	width: 70% !important;
+}
+.container h1 {
 	font-weight: bold;
-	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 p {
@@ -70,7 +78,7 @@ button {
 }
 
 form {
-	background-color: #FFFFFF;
+	background-color: rgba(241, 219, 191,0.4);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -78,6 +86,7 @@ form {
 	padding: 0 50px;
 	height: 100%;
 	text-align: center;
+	
 }
 
 input {
@@ -97,6 +106,8 @@ input {
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .form-container {
@@ -137,6 +148,8 @@ input {
 
 .social-container {
 	margin: 50px 0;
+	margin-top: -20px;
+	margin-bottom: 10px;
 }
 
 .social-container a {
