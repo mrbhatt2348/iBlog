@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css/translate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>iBlog - Heaven for bloggers</title>
+    <script src="../js/contact.js"></script>
 </head>
 <body>
     <button class="gotop">
@@ -115,12 +116,13 @@
     <div class="column right">
       <div class="text"><h3>Feel free to ask</h3></div>
       <form action="https://formsubmit.co/your@email.com" method="POST">
+        
           <div class="fields">
               <div class="field name">
-                   <input name="name" type="text" placeholder="Name" required>
+                   <input name="name" id="name" type="text" placeholder="Name" oninput="checkname();" required>
               </div>
               <div class="field email">
-                  <input type="text" name="email" placeholder="email" required>
+                  <input type="text" id="email" name="email" placeholder="email" oninput="checkemail();"  required>
              </div>
           </div>
              <div class="field">
