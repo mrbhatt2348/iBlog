@@ -30,6 +30,11 @@ iBlog - A dynamic blogging platform for valuable information, easy navigation an
 - Related blog suggestion: A feature that suggests other relevant blogs to the reader based on the topics they are interested in, helping them discover new content and expand their reading skills.
 
 - Dark Mode: Added Dark mode so that user gets comfortable with the website.
+<h4>
+<p align="center">
+  <a href="https://mrbhatt2348.github.io/iBlog/">View Demo</a>
+</p>
+</h4>
 
 ## Repo Status
 
